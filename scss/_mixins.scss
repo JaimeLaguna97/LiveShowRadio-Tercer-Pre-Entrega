@@ -1,0 +1,52 @@
+// extends
+.p-Lg{
+    font-family: $fontSecondary;
+    font-size: $textSm;
+}
+
+.p-Sm{
+    font-family: $fontSecondary;
+    font-size:$textSm;
+    font-weight:$textLigth;
+}
+
+.text-h{
+    font-family: $fontMain;
+    font-size: $textSm;
+}
+
+.b-bottom{
+    border-bottom: 1px solid;
+    width: 100%;
+}
+
+.b-top {
+    border-top: 1px solid;
+    width: 100%;
+}
+
+#carousel-sizing{
+    width: $w-40;
+    position: relative;
+    justify-content: center;
+}
+
+.button{
+    -webkit-appearance: none;
+    -webkit-font-smoothing:inherit;
+    background: 0 0;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font: inherit;
+    outline: 0;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    white-space: normal;
+    width: auto;
+    font-family: $fontSecondary;
+}
+
+
+

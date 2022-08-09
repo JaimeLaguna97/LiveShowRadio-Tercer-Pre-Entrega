@@ -1,0 +1,28 @@
+.footer-style {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0 70px 0 ;
+    .footer-div{
+        width: $w-100;
+        align-items: center;
+        img{
+            display:inline-block;
+            width: $w-20;
+        }
+    }
+
+    p{
+        @extend .p-Sm;
+        color:rgba($color: #6f7a8c, $alpha: 1);
+    }
+    
+}
+
+@media (min-width:1000px){
+    .footer-style{
+        width: 50%;
+        margin-left: 50%;
+    }
+}

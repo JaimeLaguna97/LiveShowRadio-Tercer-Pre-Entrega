@@ -1,0 +1,447 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+.textCenter {
+  text-align: center;
+}
+
+.textRight {
+  text-align: right;
+}
+
+.textLeft {
+  text-align: left;
+}
+
+body {
+  background: rgb(0, 0, 0);
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+.nav-bar1 {
+  z-index: 2;
+  width: 100%;
+  border-bottom: 1px solid;
+  background: rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.nav-bar1 ul {
+  display: flex;
+}
+.nav-bar1 ul li {
+  list-style: none;
+  padding: 15px 30px 0 0;
+}
+.nav-bar1 ul li a {
+  color: #f9f5f5;
+  font-family: "Secular one", sans-serif;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.nav-bar1 {
+  position: fixed;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+}
+.nav-bar1 img {
+  width: 200px;
+  padding: 12px 0 0 20px;
+}
+.nav-bar1 ul {
+  display: flex;
+}
+.nav-bar1 ul li {
+  list-style: none;
+}
+.nav-bar1 ul li a {
+  text-decoration: none;
+}
+
+@media (max-width: 767px) {
+  .nav-bar1 {
+    display: none;
+  }
+  #nav-bar {
+    display: flex;
+    position: sticky;
+    border-bottom: 0.5px solid;
+  }
+  #nav-bar .nav-item .nav-link {
+    color: white;
+    font-family: "Secular one", sans-serif;
+    font-size: 1em;
+  }
+  #nav-bar .navbar-toggler-icon {
+    text-align: right;
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/toggler-button.png);
+  }
+  #nav-bar .container-fluid .navbar-collapse img {
+    width: 200px;
+    height: auto;
+    padding: 5px 0 0 0;
+  }
+}
+.row-1 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.main-mobile {
+  color: #f9f5f5;
+  border-bottom: 1px solid;
+  width: 100%;
+  margin-top: 58px;
+}
+
+.img-left {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  color: #f9f5f5;
+}
+
+.p-Lg, .p-padding {
+  font-family: "lato", sans-serif;
+  font-size: 1em;
+}
+
+.p-Sm, .footer-style p, .section-about .p-styleSm {
+  font-family: "lato", sans-serif;
+  font-size: 1em;
+  font-weight: 100;
+}
+
+.text-h, .section-interviews .h1-interviews, .section-lastNews .h2-style {
+  font-family: "Secular one", sans-serif;
+  font-size: 1em;
+}
+
+.b-bottom, .section-shop, .section-interviews, .section-newReleases .iframes-box, .section-about .p-styleSm, .img-left {
+  border-bottom: 1px solid;
+  width: 100%;
+}
+
+.b-top, .section-shop, .section-interviews, .section-newReleases {
+  border-top: 1px solid;
+  width: 100%;
+}
+
+#carousel-sizing {
+  width: 40%;
+  position: relative;
+  justify-content: center;
+}
+
+.button, .section-lastNews .cta {
+  -webkit-appearance: none;
+  -webkit-font-smoothing: inherit;
+  background: 0 0;
+  border: none;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  outline: 0;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  white-space: normal;
+  width: auto;
+  font-family: "lato", sans-serif;
+}
+
+@media (min-width: 1000px) {
+  .row-1 {
+    width: 50%;
+    margin-left: 50%;
+  }
+  .img-left {
+    display: flex;
+    position: fixed;
+    margin-right: 50%;
+    width: 50%;
+    height: 100%;
+    margin-top: 40px;
+    border-right: 1px solid #f9f5f5;
+  }
+  .img-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  #nav-bar {
+    display: none;
+  }
+}
+@media (min-width: 769px) {
+  #nav-bar {
+    display: none;
+  }
+}
+.section-main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p-padding {
+  text-align: justify;
+  color: #f9f5f5;
+  padding: 100px 0 100px 0;
+}
+
+.section-about {
+  display: flex;
+  flex-direction: column;
+}
+.section-about .h1-style, .section-about .section-newReleases {
+  color: #f9f5f5;
+  padding: 30px 30px 0px 30px;
+}
+.section-about .p-styleSm {
+  color: #f9f5f5;
+  text-align: justify;
+  padding: 15px 30px 30px 30px;
+  color: white;
+}
+
+.section-lastNews {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #f9f5f5;
+}
+.section-lastNews .h2-style {
+  width: 100%;
+  font-size: 1em;
+  padding: 100px 0 0 0;
+}
+.section-lastNews .input {
+  color: white;
+  border: 0;
+  padding: 50px 0 0 0;
+}
+.section-lastNews .input-email {
+  width: 60%;
+  font-size: 1em;
+  background: 0;
+  border: 0;
+  border-radius: 0;
+  border-bottom: 1px solid #f9f5f5;
+  color: #6f7a8c;
+}
+.section-lastNews .cta {
+  font-size: 1em;
+  display: inline-block;
+  overflow: hidden;
+  font-family: "lato", sans-serif;
+  font-weight: 400;
+  padding: 0.1em 1em 0;
+  margin-top: 2%;
+}
+.section-lastNews .cta:hover {
+  transition-duration: 0, 4s;
+  background-color: rgb(235, 194, 32);
+  color: black;
+}
+
+@media (min-width: 1000px) {
+  .eat-box {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    margin-top: 20%;
+    margin-bottom: 20%;
+  }
+}
+.section-newReleases {
+  display: flex;
+  flex-direction: column;
+  color: #f9f5f5;
+  padding: 100px 0 0 0;
+  text-align: center;
+}
+.section-newReleases .iframes-box {
+  padding: 100px 0 100px 0;
+  width: 100%;
+  height: 100%;
+}
+.section-newReleases .iframes-box iframe {
+  width: 80%;
+  height: 315px;
+}
+
+.section-interviews {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-interviews .h1-interviews {
+  color: white;
+  padding: 50px 0 0 0;
+}
+
+.card-group {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 100px 0;
+}
+
+.section-shop {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.col-md-4 {
+  padding: 50px 0 50px 0;
+}
+
+@media (max-width: 768px) {
+  .col-md-4 {
+    width: 50%;
+    text-align: center;
+  }
+  .card-body {
+    width: 100%;
+  }
+  .card-body .ad-btn {
+    width: 80%;
+  }
+}
+.card-color {
+  background: rgb(201, 97, 141);
+}
+
+.card-notify-size {
+  position: absolute;
+  right: -10px;
+  top: -20px;
+  background: rgb(102, 179, 221);
+  border-radius: 50%;
+  text-align: center;
+  color: #f9f5f5;
+  font-size: 14px;
+  width: 50px;
+  height: 50px;
+  padding: 15px 0 0 0;
+}
+
+.img-fluid {
+  padding: 10px 0 10px 0;
+}
+
+.card-detail-badge {
+  background: rgb(102, 179, 221);
+  text-align: center;
+  border-radius: 30px 30px 30px 30px;
+  color: #1B1B1B;
+  padding: 5px 10px;
+  font-size: 1em;
+}
+
+.card:hover {
+  background: rgb(235, 194, 32);
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.ad-btn {
+  text-transform: uppercase;
+  width: 150px;
+  height: 40px;
+  border-radius: 80px;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  border: 3px solid rgb(102, 179, 221);
+  display: block;
+  text-decoration: none;
+  margin: 20px auto 1px auto;
+  color: #1B1B1B;
+  overflow: hidden;
+  position: relative;
+  background-color: rgb(102, 179, 221);
+}
+
+.ad-btn:hover {
+  background-color: rgb(201, 97, 141);
+  color: #1B1B1B;
+  border: 2px solid rgb(201, 97, 141);
+  background: rgb(201, 97, 141);
+  transition: all 0.3s ease;
+  box-shadow: 12px 15px 20px 0px rgba(46, 61, 73, 0.15);
+}
+
+.section-interviews {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-interviews .h1-interviews {
+  color: white;
+  padding: 50px 0 0 0;
+}
+
+.card-group {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 100px 0;
+}
+
+body {
+  height: 100vh;
+}
+
+.error-404 .gif-size {
+  width: 50%;
+}
+
+.footer-style {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100%;
+  padding: 50px 0 70px 0;
+}
+.footer-style .footer-div {
+  width: 100%;
+  align-items: center;
+}
+.footer-style .footer-div img {
+  display: inline-block;
+  width: 20%;
+}
+.footer-style p {
+  color: #6f7a8c;
+}
+
+@media (min-width: 1000px) {
+  .footer-style {
+    width: 50%;
+    margin-left: 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

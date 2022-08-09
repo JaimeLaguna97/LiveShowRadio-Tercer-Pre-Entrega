@@ -1,0 +1,89 @@
+   .section-main {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .p-padding{
+        text-align: justify;
+        color:$white;
+        @extend .p-Lg;
+        padding: 100px 0 100px 0;
+    }
+
+
+.section-about{
+    display: flex;
+    flex-direction: column;
+    .h1-style{
+        @extend .h1-style;
+        color: $white;
+        padding: 30px 30px 0px 30px;
+    }
+    .p-styleSm{
+        @extend .p-Sm;
+        color: $white;
+        text-align: justify;
+        padding: 15px 30px 30px 30px;
+        @extend .b-bottom;
+        color: white;
+    }
+}
+
+.section-lastNews{
+    width: $w-100; height: $w-20;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: $white;
+
+    .h2-style {
+        width:$w-100;
+        font-size: $textSm;
+        @extend .text-h;
+        padding: 100px 0 0 0;
+        
+    }
+
+    .input{
+        color: white;
+        border: 0;
+        padding: 50px 0 0 0;
+    }
+    .input-email {
+        width: $w-60;
+        font-size:$textSm;
+        background: 0;
+        border: 0;
+        border-radius: 0;
+        border-bottom: 1px solid $white;
+        color: rgba($color: #6f7a8c, $alpha: 1);
+    }
+    .cta {
+        @extend .button;
+        font-size: $textSm;
+        display: inline-block;
+        overflow: hidden;
+        font-family:$fontSecondary;
+        font-weight:$textBold;
+        padding: 0.1em 1em 0;
+        margin-top: 2%;
+        &:hover{   
+            transition-duration: 0,4s;
+            background-color:$secondaryColor;
+            color:black;
+        }
+    }
+}
+
+@media (min-width:1000px){
+    .eat-box{
+        width: 100%;
+        display: block;
+        object-fit: cover;
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+}
+    
+

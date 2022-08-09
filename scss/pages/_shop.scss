@@ -1,0 +1,91 @@
+.section-shop{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @extend .b-top,.b-bottom;
+
+    
+}
+
+.col-md-4 {
+    padding: 50px 0 50px 0;
+}
+
+@media(max-width:768px){
+    .col-md-4{
+        width: 50%;
+        text-align: center;
+    }
+    
+    .card-body{
+        width: 100%;
+        .ad-btn{
+            width: 80%;
+        }
+    }
+}
+
+.card-color{
+    background:$thirdColor;
+}
+
+.card-notify-size{
+    position: absolute;
+    right: -10px;
+    top: -20px;
+    background:$fourthColor;
+    border-radius: 50%;
+    text-align: center;
+    color:$white;      
+    font-size: 14px;      
+    width: 50px;
+    height: 50px;    
+    padding: 15px 0 0 0;
+}
+
+.img-fluid{
+    padding: 10px 0 10px 0;
+}
+
+.card-detail-badge {      
+    background:$fourthColor;
+    text-align: center;
+    border-radius: 30px 30px 30px 30px;
+    color:$black;
+    padding: 5px 10px;
+    font-size: 1em;        
+}
+
+.card:hover {
+    background:$secondaryColor;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+.ad-btn {
+    text-transform: uppercase;
+    width: 150px;
+    height: 40px;
+    border-radius: 80px;
+    font-size: 16px;
+    line-height: 35px;
+    text-align: center;
+    border: 3px solid $fourthColor;
+    display: block;
+    text-decoration: none;
+    margin: 20px auto 1px auto;
+    color: $black;
+    overflow: hidden;        
+    position: relative;
+    background-color: $fourthColor;
+}
+
+.ad-btn:hover {
+    background-color:$thirdColor;
+    color:$black;
+    border: 2px solid $thirdColor;
+    background: $thirdColor;
+    transition: all 0.3s ease;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+}

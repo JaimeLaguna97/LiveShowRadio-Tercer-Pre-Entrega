@@ -1,0 +1,21 @@
+.section-interviews{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @extend .b-bottom,.b-top;
+    .h1-interviews{
+        @extend .text-h;
+        color: white;
+        padding:50px 0 0 0;
+
+    }
+}
+
+.card-group{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 100px 0;
+}

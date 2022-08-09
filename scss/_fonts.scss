@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Secular+One&display=swap");
+
+$fontMain:'Secular one', sans-serif;
+$fontSecondary:'lato', sans-serif;
+
+$textLg:3em;
+$textMd:2em;
+$textSm:1em;
+
+$textBold:400;
+$textRegular:400;
+$textLigth:100;
+
+.textCenter {
+    text-align: center;
+}
+
+.textRight {
+    text-align: right;
+}
+
+.textLeft {
+    text-align: left;
+}
